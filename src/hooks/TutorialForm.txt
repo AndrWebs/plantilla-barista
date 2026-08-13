@@ -1,0 +1,21 @@
+
+
+======= 📋 LO QUE HACE ESTE ARCHIVO =========
+
+
+Función   	¿Qué hace?          	         Línea aprox.
+contactFields	Define los 4 campos del formulario     50-100
+validateField	Valida un campo (requerido, email, longitud) 130-160
+handleChange	Actualiza el valor mientras escribes   165-180
+handleBlur	Valida al salir del campo	         185-195
+validateForm	Valida todos los campos antes de enviar	200-215
+saveLead	Guarda en Supabase + localStorage	         220-250
+handleSubmit	Orquesta todo: valida → guarda → feedback 255-280
+
+======== 🎯 FORMULARIOS QUE USAN ESTE HOOK =========
+
+Componente	¿Lo usa?
+ContactForm.tsx	✅ Sí (modal del Hero)
+Hero.tsx  	✅ A través de ContactForm
+CTAFinal.tsx	✅ A través de ContactForm
+Footer.tsx	❌ Tiene su propia lógica (lo actualizaremos aparte)

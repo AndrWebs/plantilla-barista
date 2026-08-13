@@ -1,0 +1,17 @@
+CTAFinal
+├── Fondo animado (círculos que se mueven)
+├── Contenido principal
+│   ├── Badge de urgencia ("Solo quedan 3 cupos")
+│   ├── Título gigante con gradiente
+│   ├── Descripción persuasiva
+│   ├── Botón "Comenzar Ahora Gratis" → onClick={() => setShowForm(true)}
+│   └── Botón "Agendar Llamada"
+│
+└── MODAL (solo visible si showForm === true)
+    ├── Overlay oscuro (bg-black/60 + blur)
+    │   └── onClick fuera = cierra el modal
+    └── Tarjeta del formulario
+        ├── Botón X para cerrar
+        ├── Título "Solicita tu Demo Gratis"
+        ├── Subtítulo
+        └── <ContactForm />  ← El formulario con validación

@@ -1,0 +1,24 @@
+
+
+ Navbar
+├── 🎨 Animación de entrada (aparece desde arriba)
+├── 🖼️ LOGO
+│   ├── 🌍 Globe3D (Three.js - 60x60px)
+│   ├── 📝 "ELEVATE" (gradiente púrpura-rosa)
+│   └── 📝 "Tecnología Digital" (gris pequeño)
+│
+├── 💻 MENÚ DESKTOP (md+)
+│   ├── 🔗 Links con hover effect
+│   ├── 🌐 LanguageToggle (ES/EN)
+│   ├── 🌙 ThemeToggle (oscuro/claro)
+│   └── 🚀 Botón CTA "Comenzar Gratis"
+│
+└── 📱 MENÚ MOBILE (< md)
+    ├── 🍔 Botón hamburguesa
+    └── 📋 Panel desplegable animado
+        ├── 🔗 Links
+        ├── 🌐🌙 Toggles
+        └── 🚀 Botón CTA
+        
+        
+        
