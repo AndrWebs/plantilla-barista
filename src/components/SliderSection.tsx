@@ -169,7 +169,7 @@ const SliderSection = () => {
       opacity: 1,
       scale: 1,
       rotateY: 0,
-      transition: { duration: 0.6, ease: "easeInOut"},
+      transition: { duration: 0.6, ease: "easeInOut" },
     },
     exit: (dir: number) => ({
       x: dir > 0 ? -300 : 300,

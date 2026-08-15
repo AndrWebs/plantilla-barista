@@ -88,7 +88,7 @@ const PasosSlider = () => {
       scale: 1,
       transition: {
         duration: 0.6,
-        ease: [0.25, 0.46, 0.45, 0.94],
+        ease: "easeInOut",
       },
     },
     exit: (dir: number) => ({
