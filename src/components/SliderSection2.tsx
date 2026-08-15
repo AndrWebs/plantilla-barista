@@ -10,7 +10,7 @@ import { useLanguage } from "../context/LanguageContext"
 type Slide = {
   id: number
   title: string
-  description: string
+  
   gradient: string        // Color de fondo si no hay imagen
   icon: string            // Emoji decorativo
   cta: string             // Texto del botón
