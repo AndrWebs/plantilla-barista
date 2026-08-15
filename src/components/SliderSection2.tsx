@@ -24,7 +24,7 @@ type Slide = {
 const slides: Slide[] = [
   {
     id: 1,
-    tittle: "explora y connocenos",
+    title: "explora y connocenos",
     gradient: "from-amber-900 via-amber-800 to-orange-900",
     icon: "☕",
     cta: "Ver Curso →",
